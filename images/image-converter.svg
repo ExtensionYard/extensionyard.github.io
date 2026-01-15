@@ -1,0 +1,48 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Browser window frame -->
+  <rect x="20" y="20" width="360" height="260" fill="#FFFFFF" rx="8"/>
+  <rect x="20" y="20" width="360" height="40" fill="#F3F4F6" rx="8 8 0 0"/>
+  <circle cx="40" cy="40" r="6" fill="#EF4444"/>
+  <circle cx="60" cy="40" r="6" fill="#F59E0B"/>
+  <circle cx="80" cy="40" r="6" fill="#10B981"/>
+  
+  <!-- Image files -->
+  <rect x="50" y="80" width="80" height="60" fill="#E5E7EB" rx="4"/>
+  <text x="90" y="115" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6B7280" text-anchor="middle">JPG</text>
+  
+  <path d="M 150 110 L 200 110" stroke="#4F46E5" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4F46E5"/>
+    </marker>
+  </defs>
+  
+  <rect x="210" y="80" width="80" height="60" fill="#DBEAFE" rx="4"/>
+  <text x="250" y="115" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2563EB" text-anchor="middle">PNG</text>
+  
+  <!-- Additional format icons -->
+  <rect x="50" y="160" width="50" height="40" fill="#FEE2E2" rx="4"/>
+  <text x="75" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#DC2626" text-anchor="middle">WEBP</text>
+  
+  <rect x="120" y="160" width="50" height="40" fill="#D1FAE5" rx="4"/>
+  <text x="145" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669" text-anchor="middle">SVG</text>
+  
+  <rect x="190" y="160" width="50" height="40" fill="#FEF3C7" rx="4"/>
+  <text x="215" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#D97706" text-anchor="middle">GIF</text>
+  
+  <rect x="260" y="160" width="50" height="40" fill="#E0E7FF" rx="4"/>
+  <text x="285" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4F46E5" text-anchor="middle">ICO</text>
+  
+  <!-- Lock icon for privacy -->
+  <circle cx="330" cy="220" r="20" fill="#10B981" opacity="0.9"/>
+  <path d="M 320 220 L 320 210 Q 320 205, 325 205 L 335 205 Q 340 205, 340 210 L 340 220" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <rect x="325" y="220" width="10" height="8" fill="#FFFFFF"/>
+</svg>
